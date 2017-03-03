@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.nebulastudio.flabfit.flaborfit.DetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#2ca5f5"
+        android:id="@+id/mainBG">
+
+        <TextView
+            android:text="Weight Lifting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/exerciseTitle"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="30dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/weight"
+            android:id="@+id/exerciseImage" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:layout_margin="20dp"
+            android:backgroundTint="#30111111">
+
+            <TextView
+                android:text="Mark it complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:text="Complete Set 1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox5"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:buttonTint="#ffffff" />
+
+            <CheckBox
+                android:text="Complete Set 2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:buttonTint="#ffffff" />
+
+            <CheckBox
+                android:text="Complete Set 3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox3"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:buttonTint="#ffffff" />
+
+            <CheckBox
+                android:text="Complete Set 4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox2"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:buttonTint="#ffffff" />
+
+            <CheckBox
+                android:text="Complete Set 5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:buttonTint="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
